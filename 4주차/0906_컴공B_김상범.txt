@@ -45,13 +45,13 @@
 - 현실세계에 존재하는 값으로 구성하거나 정의된 범위의 값을로 사용해야 한다.
 
 
-*select 절 							<=그룹함수 사용 가능
-select [distinct] 속성명
+*SELECT 절
+select [distinct] 속성명 <=그룹함수 사용 가능
 from 테이블명
-[where 데이터 조건 			<=그룹함수 사용 불가능
+[where 데이터 조건       <=그룹함수 사용 불가능
 group by 그룹할 속성명
-having 그룹조건 				 <=그룹함수 사용 가능
-order by 정렬할 속성명 ASC|DESC];
+having 그룹조건          <=그룹함수 사용 가능
+order by 정렬한 속성명 ASC|DESC];
 
 *그룹함수 : count(*) / sum(속성) / avg(속성) / min(속성) / max(속성)
 
